@@ -30,3 +30,8 @@ About the dataset:
 I can't share them because of the copyright.  
 In stead of that, you can download the kancolle standings:  
 https://drive.google.com/open?id=1elHLWSpr-T2aSpAttYYMbDnj7sj5vs-Q
+
+
+
+
+Some codes are from: https://github.com/milesial/Pytorch-UNet
