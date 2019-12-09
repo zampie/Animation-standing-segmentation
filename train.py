@@ -22,16 +22,18 @@ from PIL import Image
 
 if __name__ == '__main__':
 
-    max_epochs = 1000  # Number of training epochs
+    max_epochs = 100  # Number of training epochs
     lr = 0.0002  # Learning rate for optimizers
-    batch_size = 4  # Batch size during training
-    image_size = 512  # All images will be resized to this size using a transformer.
+    batch_size = 16  # Batch size during training
+    image_size = 256  # All images will be resized to this size using a transformer.
     nrow = 2
     # Root directory for dataset
     # data_path = '/datasets/standing_1/full'
-    data_path = './datasets/standing_s'
+    # data_path = './datasets/standing_s'
+    data_path = './datasets/KanColleMask'
 
-    samples_path = './samples_5'
+
+    samples_path = './samples_6'
     os.makedirs(samples_path, exist_ok=True)
 
     workers = 4  # Number of workers for dataloader
